@@ -10,10 +10,10 @@
     "eslint-plugin-sort-destructure-keys": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^8"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^8"
   },
   "files": [
     "index.js"
