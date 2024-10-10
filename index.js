@@ -25,7 +25,6 @@ module.exports = {
     'object-curly-newline': ['error', { consistent: true, multiline: true }],
     semi: ['error', 'never'],
     'sort-destructure-keys/sort-destructure-keys': 'error',
-    'sort-imports': ['error', { ignoreDeclarationSort: true }],
-    'sort-keys': ['error', 'asc', { natural: true }]
+    'sort-imports': ['error', { ignoreDeclarationSort: true }]
   }
 }
