@@ -1,22 +1,33 @@
 {
   "name": "@shcherbin/eslint-config-node",
-  "description": "Shareable eslint node typescript config",
+  "description": "Shareable eslint Node.js config",
   "version": "0.3.0",
   "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
   "repository": "vladshcherbin/eslint-config-node",
+  "exports": "./src/index.js",
+  "scripts": {
+    "lint": "eslint src"
+  },
   "dependencies": {
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-sort-destructure-keys": "^2.0.0"
+    "@shcherbin/eslint-config": "^0.18.2",
+    "globals": "^16.2.0"
   },
   "devDependencies": {
-    "eslint": "^8"
+    "eslint": "^9.27.0",
+    "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "eslint": "^8"
+    "eslint": "^9.27.0",
+    "typescript": "^5.8.3"
   },
   "files": [
-    "index.js"
+    "src"
   ],
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "unrs-resolver"
+    ]
+  },
+  "type": "module",
   "license": "MIT"
 }
