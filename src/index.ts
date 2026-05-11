@@ -3,9 +3,7 @@ import { defineConfig } from 'eslint/config'
 import globals from 'globals'
 
 export default defineConfig({
-  extends: [
-    config
-  ],
+  extends: config,
   files: ['**/*.js', '**/*.ts'],
   languageOptions: {
     globals: globals.node

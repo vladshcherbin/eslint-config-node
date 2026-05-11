@@ -1,13 +1,6 @@
-import config from '@shcherbin/eslint-config'
 import { defineConfig } from 'eslint/config'
+import config from './src/index.ts'
 
 export default defineConfig({
-  extends: [
-    config
-  ],
-  languageOptions: {
-    parserOptions: {
-      projectService: true
-    }
-  }
+  extends: config
 })
