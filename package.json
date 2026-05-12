@@ -1,7 +1,7 @@
 {
   "name": "@shcherbin/eslint-config-node",
   "description": "Shareable eslint Node.js config",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "author": "Vlad Shcherbin <vlad.shcherbin@gmail.com>",
   "repository": "vladshcherbin/eslint-config-node",
   "exports": {
