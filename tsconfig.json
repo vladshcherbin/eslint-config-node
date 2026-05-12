@@ -1,3 +1,10 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig"
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["./src/**/*.ts"]
 }
